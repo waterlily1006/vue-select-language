@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <VLanguage
+        <VueSelectLanguage
             v-model="selectLang"
             :langs="langs"
             :is-selected-name-show="true"
@@ -8,17 +8,17 @@
             :is-arrow-show="false"
             :is-squared="true"
         >
-        </VLanguage>
+        </VueSelectLanguage>
     </div>
 </template>
 
 <script>
-// import VLanguage from './VLanguage.vue'
+import VueSelectLanguage from './VueSelectLanguage.vue'
 
 export default {
     name: "App",
     components: {
-        // VLanguage
+        VueSelectLanguage
     },
     data() {
         return {

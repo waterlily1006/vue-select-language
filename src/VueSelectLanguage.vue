@@ -71,7 +71,7 @@ import "flag-icon-css/css/flag-icon.min.css";
 import isMobileJs from "ismobilejs";
 
 export default {
-    name: "vue-select-language",
+    name: "vueSelectLanguage",
     data() {
         return {
             isListShow: false,
